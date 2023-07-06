@@ -1,0 +1,2 @@
+Template de Clean Architecture en TypeScript
+Este es un proyecto template que implementa el patrón de arquitectura limpia (Clean Architecture) en TypeScript. La arquitectura limpia es un enfoque que promueve la separación de preocupaciones y la independencia de las capas de un sistema, lo que facilita el mantenimiento, la escalabilidad y la prueba unitaria.

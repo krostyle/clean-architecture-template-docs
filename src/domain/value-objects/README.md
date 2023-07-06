@@ -1,0 +1,2 @@
+Value Objects
+Los Value Objects, o Objetos de Valor, son una de las construcciones fundamentales en DDD. Son objetos pequeños que no tienen una identidad y se comparan únicamente en función de sus atributos, no su identidad. Los Value Objects suelen ser inmutables y se utilizan para describir aspectos del dominio que no requieren identidad, como una dirección de correo electrónico, una cantidad de dinero o un rango de fechas.

@@ -1,0 +1,2 @@
+Domain Services
+En la Arquitectura Limpia, los servicios de dominio suelen ser clases o módulos que contienen lógica de negocio que no encaja naturalmente en una entidad en particular. Esto a menudo ocurre cuando tienes operaciones que involucran varias entidades diferentes o cuando la operación no se siente "parte" de una entidad desde una perspectiva de modelado de dominio. Por ejemplo, podrías tener un servicio de dominio que coordina un proceso de negocio complejo que implica múltiples entidades.

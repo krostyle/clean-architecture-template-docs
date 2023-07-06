@@ -1,0 +1,2 @@
+Aggregates
+Los Aggregates, o Agregados, son un patrón de DDD que proporciona un límite claro y garantías de consistencia para un grupo de entidades y Value Objects. Un Agregado es una entidad o grupo de entidades y Value Objects que se consideran una sola unidad con respecto a la persistencia de datos, y cualquier regla de consistencia se aplica al Agregado como un todo.

@@ -1,0 +1,6 @@
+Repositories
+En la Arquitectura Limpia y en el DDD, un repositorio es una abstracción que encapsula los detalles de acceso y manipulación de los datos persistentes de las entidades. Se comporta como una colección de objetos de dominio en la memoria, y su responsabilidad es almacenar y recuperar estos objetos.
+
+En otras palabras, el Repositorio actúa como una especie de intermediario entre la lógica de negocio y la fuente de datos, proporcionando una interfaz para consultar y manipular los datos sin exponer los detalles de implementación subyacentes de cómo se almacenan realmente esos datos. Por ejemplo, podrías tener un repositorio que maneje el acceso a los datos de los "Productos" en tu sistema. La implementación concreta de este repositorio podría interactuar con una base de datos SQL, una base de datos NoSQL, una API web o cualquier otra fuente de datos, pero la lógica de negocio que utiliza el repositorio no necesita saber nada sobre esos detalles.
+
+En la Arquitectura Limpia, se define una interfaz para cada repositorio en la capa de dominio, y la implementación de esta interfaz (que interactúa con la fuente de datos) se coloca en la capa de infraestructura. Esto asegura que la lógica de negocio permanezca desacoplada de los detalles específicos de la persistencia de datos.
